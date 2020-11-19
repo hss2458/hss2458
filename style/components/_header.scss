@@ -1,0 +1,17 @@
+.header {
+    .title {
+        margin-top: 50px;
+        position: absolute;
+        color: #ffffff;
+        font-size: 80px;
+        font-weight: 700;
+        text-align: right;
+        line-height: 1.1;
+        right: 5%;
+        text-transform: capitalize;
+        opacity: 1;
+        background: linear-gradient(to right top, #ff88c6 30%, #b56cff 70%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}

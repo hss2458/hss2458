@@ -1,0 +1,205 @@
+.main {
+    height: 100vh;
+    background: #000;
+    
+    .contents {
+        background: #000;
+        height: 100vh; /* 높이가 있어야  flex-end가 먹힘 */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    
+        .contents-list {
+            position: relative; 
+            padding-bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            li {
+                width: 50vw;
+                padding: 5px 0 5px 0;
+                font-size: 3.5vw;
+                font-weight: 700;
+
+                &:nth-child(1)::after {
+                    opacity: 0;
+                    transition: 0.5s;    
+                    display: block;      
+                    position: absolute;
+                    bottom: 12%;
+                    right: 0; 
+                    content: '';
+                    width: 900px;
+                    height: 900px;
+                    background: url("../images/resume.png") 0 0 no-repeat;    
+                }
+
+                &:hover {
+                    &:nth-child(1)::after {
+                        opacity: 1;
+                        transition: 0.5s;                      
+                    }
+                }              
+
+                &:nth-child(2)::after {
+                    opacity: 0;
+                    transition: 0.5s;    
+                    display: block;      
+                    position: absolute;
+                    bottom: 12%;
+                    right: 0; 
+                    content: '';
+                    width: 900px;
+                    height: 900px;
+                    background: url("../images/uiux_sidmool.png") 0 0 no-repeat;    
+                }
+
+                &:hover {
+                    &:nth-child(2)::after {
+                        opacity: 1;
+                        transition: 0.5s;                      
+                    }
+                }
+
+                &:nth-child(3)::after {
+                    opacity: 0;
+                    transition: 0.5s;    
+                    display: block;      
+                    position: absolute;
+                    bottom: 12%;
+                    right: 0; 
+                    content: '';
+                    width: 900px;
+                    height: 900px;
+                    background: url("../images/detailpage_forencos.png") 0 0 no-repeat;    
+                }
+
+                &:hover {
+                    &:nth-child(3)::after {
+                        opacity: 1;
+                        transition: 0.5s;                      
+                    }
+                }
+
+                &:nth-child(4)::after {
+                    opacity: 0;
+                    transition: 0.5s;    
+                    display: block;      
+                    position: absolute;
+                    bottom: 12%;
+                    right: 0; 
+                    content: '';
+                    width: 900px;
+                    height: 900px;
+                    background: url("../images/webdesign_ideco_transp.png") 0 0 no-repeat;    
+                }
+
+                &:hover {
+                    &:nth-child(4)::after {
+                        opacity: 1;
+                        transition: 0.5s;                      
+                    }
+                }
+
+                &:nth-child(5)::after {
+                    opacity: 0;
+                    transition: 0.5s;    
+                    display: block;      
+                    position: absolute;
+                    bottom: 12%;
+                    right: 0; 
+                    content: '';
+                    width: 900px;
+                    height: 900px;
+                    background: url("../images/publishing_maketer.png") 0 0 no-repeat;    
+                }
+
+                &:hover {
+                    &:nth-child(5)::after {
+                        opacity: 1;
+                        transition: 0.5s;                      
+                    }
+                }
+
+                &:nth-child(6)::after {
+                    opacity: 0;
+                    transition: 0.5s;    
+                    display: block;      
+                    position: absolute;
+                    bottom: 12%;
+                    right: 0; 
+                    content: '';
+                    width: 900px;
+                    height: 900px;
+                    background: url("../images/publishing_subway.png") 0 0 no-repeat;    
+                }
+
+                &:hover {
+                    &:nth-child(6)::after {
+                        opacity: 1;
+                        transition: 0.5s;                      
+                    }
+                }                
+
+                a {
+                    position: relative;
+                    color: #fff;
+                    transition: 0.5s;
+                    
+                    &:nth-child(1)::after {
+                        position: absolute;
+                        bottom: 0;
+                        height: 10px;
+                        left: 0;
+                        content: "";
+                        display: block;
+                        background: linear-gradient(to right, #ff88c6 30%, #b56cff 70%);          
+                        transition: width 0.6s ease 0s, left 0.6s ease 0s;
+                        width: 0;  
+                    }
+    
+                    &:hover {
+                        &::after {
+                          width: 100%;
+                        }
+                      } 
+
+
+                    &:hover {
+                        transition: 0.5s;
+                        color: #000;
+                        text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+
+                        span {
+                            color: #fff;
+                            text-shadow: none;
+                        }
+                    }
+
+                    span {
+                        font-size: 0.8vw;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+
+        // .portfolio {
+        //     position: absolute;
+        //     width: 35%;
+        //     height: 35%;
+        //     bottom: 60%;
+        //     right: 5%;
+
+        //     .images {
+        //         position: absolute;
+        //         img {
+        //             opacity: 0;
+        //         }
+        //     }
+        // }
+
+    }
+
+}
