@@ -540,11 +540,35 @@ html, body {
   padding: 0 15px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 992px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 542px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
 .header .title {
   margin-top: 50px;
   position: absolute;
   color: #ffffff;
-  font-size: 80px;
+  font-size: 4vw;
   font-weight: 700;
   text-align: right;
   line-height: 1.1;
@@ -626,12 +650,13 @@ html, body {
   transition: 0.5s;
   display: block;
   position: absolute;
-  bottom: 12%;
+  bottom: 50%;
   right: 0;
   content: '';
-  width: 900px;
-  height: 900px;
+  width: 500px;
+  height: 500px;
   background: url("../images/resume.png") 0 0 no-repeat;
+  background-size: 500px 500px;
 }
 
 .main .contents .contents-list li:hover:nth-child(1)::after {
@@ -646,12 +671,13 @@ html, body {
   transition: 0.5s;
   display: block;
   position: absolute;
-  bottom: 12%;
+  bottom: 50%;
   right: 0;
   content: '';
-  width: 900px;
-  height: 900px;
+  width: 500px;
+  height: 500px;
   background: url("../images/uiux_sidmool.png") 0 0 no-repeat;
+  background-size: 500px 500px;
 }
 
 .main .contents .contents-list li:hover:nth-child(2)::after {
@@ -666,12 +692,13 @@ html, body {
   transition: 0.5s;
   display: block;
   position: absolute;
-  bottom: 12%;
+  bottom: 50%;
   right: 0;
   content: '';
-  width: 900px;
-  height: 900px;
+  width: 500px;
+  height: 500px;
   background: url("../images/detailpage_forencos.png") 0 0 no-repeat;
+  background-size: 500px 500px;
 }
 
 .main .contents .contents-list li:hover:nth-child(3)::after {
@@ -686,12 +713,13 @@ html, body {
   transition: 0.5s;
   display: block;
   position: absolute;
-  bottom: 12%;
+  bottom: 50%;
   right: 0;
   content: '';
-  width: 900px;
-  height: 900px;
+  width: 500px;
+  height: 500px;
   background: url("../images/webdesign_ideco_transp.png") 0 0 no-repeat;
+  background-size: 500px 500px;
 }
 
 .main .contents .contents-list li:hover:nth-child(4)::after {
@@ -706,12 +734,13 @@ html, body {
   transition: 0.5s;
   display: block;
   position: absolute;
-  bottom: 12%;
+  bottom: 50%;
   right: 0;
   content: '';
-  width: 900px;
-  height: 900px;
+  width: 500px;
+  height: 500px;
   background: url("../images/publishing_maketer.png") 0 0 no-repeat;
+  background-size: 500px 500px;
 }
 
 .main .contents .contents-list li:hover:nth-child(5)::after {
@@ -726,12 +755,13 @@ html, body {
   transition: 0.5s;
   display: block;
   position: absolute;
-  bottom: 12%;
+  bottom: 50%;
   right: 0;
   content: '';
-  width: 900px;
-  height: 900px;
+  width: 500px;
+  height: 500px;
   background: url("../images/publishing_subway.png") 0 0 no-repeat;
+  background-size: 500px 500px;
 }
 
 .main .contents .contents-list li:hover:nth-child(6)::after {

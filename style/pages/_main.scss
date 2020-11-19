@@ -27,12 +27,13 @@
                     transition: 0.5s;    
                     display: block;      
                     position: absolute;
-                    bottom: 12%;
+                    bottom: 50%;
                     right: 0; 
                     content: '';
-                    width: 900px;
-                    height: 900px;
-                    background: url("../images/resume.png") 0 0 no-repeat;    
+                    width: 500px;
+                    height: 500px;
+                    background: url("../images/resume.png") 0 0 no-repeat;
+                    background-size:500px 500px;
                 }
 
                 &:hover {
@@ -40,19 +41,20 @@
                         opacity: 1;
                         transition: 0.5s;                      
                     }
-                }              
-
+                }
+                
                 &:nth-child(2)::after {
                     opacity: 0;
                     transition: 0.5s;    
                     display: block;      
                     position: absolute;
-                    bottom: 12%;
+                    bottom: 50%;
                     right: 0; 
                     content: '';
-                    width: 900px;
-                    height: 900px;
-                    background: url("../images/uiux_sidmool.png") 0 0 no-repeat;    
+                    width: 500px;
+                    height: 500px;
+                    background: url("../images/uiux_sidmool.png") 0 0 no-repeat;
+                    background-size:500px 500px;
                 }
 
                 &:hover {
@@ -67,12 +69,13 @@
                     transition: 0.5s;    
                     display: block;      
                     position: absolute;
-                    bottom: 12%;
+                    bottom: 50%;
                     right: 0; 
                     content: '';
-                    width: 900px;
-                    height: 900px;
-                    background: url("../images/detailpage_forencos.png") 0 0 no-repeat;    
+                    width: 500px;
+                    height: 500px;
+                    background: url("../images/detailpage_forencos.png") 0 0 no-repeat;
+                    background-size:500px 500px;
                 }
 
                 &:hover {
@@ -87,12 +90,13 @@
                     transition: 0.5s;    
                     display: block;      
                     position: absolute;
-                    bottom: 12%;
+                    bottom: 50%;
                     right: 0; 
                     content: '';
-                    width: 900px;
-                    height: 900px;
-                    background: url("../images/webdesign_ideco_transp.png") 0 0 no-repeat;    
+                    width: 500px;
+                    height: 500px;
+                    background: url("../images/webdesign_ideco_transp.png") 0 0 no-repeat;
+                    background-size:500px 500px;   
                 }
 
                 &:hover {
@@ -107,12 +111,13 @@
                     transition: 0.5s;    
                     display: block;      
                     position: absolute;
-                    bottom: 12%;
+                    bottom: 50%;
                     right: 0; 
                     content: '';
-                    width: 900px;
-                    height: 900px;
-                    background: url("../images/publishing_maketer.png") 0 0 no-repeat;    
+                    width: 500px;
+                    height: 500px;
+                    background: url("../images/publishing_maketer.png") 0 0 no-repeat; 
+                    background-size:500px 500px;      
                 }
 
                 &:hover {
@@ -127,12 +132,13 @@
                     transition: 0.5s;    
                     display: block;      
                     position: absolute;
-                    bottom: 12%;
+                    bottom: 50%;
                     right: 0; 
                     content: '';
-                    width: 900px;
-                    height: 900px;
-                    background: url("../images/publishing_subway.png") 0 0 no-repeat;    
+                    width: 500px;
+                    height: 500px;
+                    background: url("../images/publishing_subway.png") 0 0 no-repeat;
+                    background-size:500px 500px; 
                 }
 
                 &:hover {
